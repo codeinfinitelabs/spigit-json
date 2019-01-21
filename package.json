@@ -1,0 +1,26 @@
+{
+  "name": "spigit-json",
+  "version": "0.0.1",
+  "description": "A json reporter for spigit",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc --reporter=text-summary mocha"
+  },
+  "keywords": [
+    "spigit",
+    "json",
+    "log",
+    "logging"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fast-safe-stringify": "2.x.x",
+    "hoek": "6.x.x",
+    "joi": "14.x.x"
+  },
+  "devDependencies": {
+    "chai": "4.x.x",
+    "mocha": "5.x.x",
+    "nyc": "13.x.x"
+  }
+}
